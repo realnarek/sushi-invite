@@ -218,7 +218,7 @@ export default function SushiInvitation() {
                 backgroundSize: "200% auto",
                 WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
                 animation: "shimmer 4s linear infinite",
-              }}>Ես արդեն ընտրել եմ սուշիի տեղը 🍣 Քեզ հետ գնալն է մնացել</span><span style={{ fontSize: "28px" }}>😉</span>
+              }}>Ես արդեն ընտրել եմ սուշիի տեղը Քեզ հետ գնալն է մնացել</span><span style={{ fontSize: "28px" }}>😉</span>
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <ActionButton variant="primary" onClick={() => setScreen("yes")} delay={0}>
